@@ -267,7 +267,7 @@ import { Todo } from './models/todo';
 })
 export class AppComponent implements OnInit {
 
-  todos$: Observable<Todo[]>;
+  todos$: Observable<TodoListState>;
 
   constructor(
     private store: Store<AppState>
