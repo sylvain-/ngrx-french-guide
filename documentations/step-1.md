@@ -78,7 +78,7 @@ export interface TodoListState {
 
  Créer ici un fichier pour *mocker* nos valeurs :
 
-*mocks/todo-list.ts*
+*mocks/todo-list-data.ts*
 ```javascript
 export const todosMock = [{
     "userId": 1,
